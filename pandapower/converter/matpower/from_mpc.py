@@ -41,7 +41,7 @@ def from_mpc(mpc_file, f_hz=50, casename_mpc_file='mpc', validate_conversion=Fal
 
         import pandapower.converter as pc
 
-        pp_net = cv.from_mpc('case9.mat', f_hz=60)
+        pp_net = pc.from_mpc('case9.mat', f_hz=60)
 
     """
     ppc = _mpc2ppc(mpc_file, casename_mpc_file)
